@@ -1,4 +1,4 @@
-# Saving source and blank slates
+# Debugging R code
 
 **Learning objectives:**
 

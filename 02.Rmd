@@ -1,4 +1,4 @@
-# Saving source and blank slates
+# Project-oriented workflow
 
 **Learning objectives:**
 

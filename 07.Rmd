@@ -1,4 +1,4 @@
-# Saving source and blank slates
+# R Startup
 
 **Learning objectives:**
 

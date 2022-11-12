@@ -1,4 +1,4 @@
-# Saving source and blank slates
+# Set up an R dev environment
 
 **Learning objectives:**
 
