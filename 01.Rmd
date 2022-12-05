@@ -9,10 +9,58 @@
 -   Break analyses into phases to save objects at logical steps.
 -   Recognize {targets} as an option for automating workflows.
 
-## SLIDE 1 {-}
 
-- ADD SLIDES AS SECTIONS (`##`).
-- TRY TO KEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.
+## Working in an IDE {-}
+
+-   IDE = Integrated Development Environment
+-   Run R code without leaving script
+-   Discussion: Does anyone use anything other than RStudio? What do you like about it?
+
+
+## Starting from a Blank Slate {-}
+
+```{r fig.cap = "updated screenshot", out.width = '100%', echo = FALSE}
+knitr::include_graphics("images/01-blank_slate.png")
+```
+
+
+## Hotkeys for Restarting and Running
+
+-   Ctrl/Cmd+Shift+F10 = Restart R. Do this often.
+-   Ctrl/Cmd+Alt/Opt+B = Run code from beginning to cursor (`.R`)
+-   Ctrl/Cmd+Alt/Opt+SHIFT+P = Run all Previous chunks (`.Rmd`)
+-   Ctrl/Cmd+Enter = Run this line
+-   Ctrl/Cmd+Shift+Enter = Run this file
+
+
+## Don't Half-Ass It
+
+<img src="images/EIKIFJB_sigmar_hex.png" align="right" height="424" />
+
+-   Lots of people use `rm(list = ls())` to "reset" at top of script, but
+-   That only gets visible objects you created
+
+```{r 01-rm-dots, eval = FALSE}
+.my_secret <- "you can't kill me!"
+rm(list = ls())
+.my_secret
+
+#> [1] "you can't kill me!"
+```
+
+-   Also [Jenny might set your computer on fire](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/).
+
+
+## Save Often
+
+-   My #1 fear about restarting often is related to long-running processes...
+-   So I should save those via their own piece of the workflow.
+
+
+## Automated Workflows
+
+-   The book predates {targets}, but that's what she meant to say.
+-   If time allows: Let's talk about {targets}!
 
 
 ## Review {-}
