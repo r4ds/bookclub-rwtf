@@ -2,12 +2,28 @@
 
 **Learning objectives:**
 
-- THESE ARE NICE TO HAVE BUT NOT ABSOLUTELY NECESSARY
+-   List some benefits of working in an IDE.
+-   Configure your environment to start from a blank slate.
+-   Use hotkeys to restart R and run R code.
+-   Explain why `rm(list = ls()` is bad practice.
+-   Break analyses into phases to save objects at logical steps.
+-   Recognize {targets} as an option for automating workflows.
 
 ## SLIDE 1 {-}
 
 - ADD SLIDES AS SECTIONS (`##`).
 - TRY TO KEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.
+
+
+## Review {-}
+
+-   List some benefits of working in an IDE.
+-   Configure your environment to start from a blank slate.
+-   Use hotkeys to restart R and run R code.
+-   Explain why `rm(list = ls()` is bad practice.
+-   Break analyses into phases to save objects at logical steps.
+-   Recognize {targets} as an option for automating workflows.
+
 
 ## Meeting Videos {-}
 
