@@ -24,7 +24,7 @@ knitr::include_graphics("images/01-blank_slate.png")
 ```
 
 
-## Hotkeys for Restarting and Running
+## Hotkeys for Restarting and Running {-}
 
 -   Ctrl/Cmd+Shift+F10 = Restart R. Do this often.
 -   Ctrl/Cmd+Alt/Opt+B = Run code from beginning to cursor (`.R`)
@@ -33,7 +33,7 @@ knitr::include_graphics("images/01-blank_slate.png")
 -   Ctrl/Cmd+Shift+Enter = Run this file
 
 
-## Don't Half-Ass It
+## Don't Half-Ass It {-}
 
 <img src="images/EIKIFJB_sigmar_hex.png" align="right" height="424" />
 
@@ -51,13 +51,13 @@ rm(list = ls())
 -   Also [Jenny might set your computer on fire](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/).
 
 
-## Save Often
+## Save Often {-}
 
 -   My #1 fear about restarting often is related to long-running processes...
 -   So I should save those via their own piece of the workflow.
 
 
-## Automated Workflows
+## Automated Workflows {-}
 
 -   The book predates {targets}, but that's what she meant to say.
 -   If time allows: Let's talk about {targets}!
