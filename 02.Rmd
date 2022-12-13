@@ -2,7 +2,9 @@
 
 **Learning objectives:**
 
-- THESE ARE NICE TO HAVE BUT NOT ABSOLUTELY NECESSARY
+-   Explain why `setwd()` makes it difficult to share code.
+-   Describe the structure of a project and how that structure makes code more portable.
+-   Use an IDE to work with projects.
 
 ## SLIDE 1 {-}
 
