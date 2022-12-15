@@ -58,11 +58,11 @@ rstudioapi::getActiveDocumentContext()
 
 In general, if you are in `.R` script and work on a team sharing work, it might be helpful to use:
 
-```{r}
+```{r eval=FALSE}
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 ```
 
-```{r}
+```{r eval=FALSE}
 getwd()
 ```
 
