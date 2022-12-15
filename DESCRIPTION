@@ -14,5 +14,4 @@ Depends:
 Imports: 
     bookdown,
     here,
-    rmarkdown,
-    rstudioapi
+    rmarkdown

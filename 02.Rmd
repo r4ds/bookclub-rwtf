@@ -38,7 +38,7 @@ Setting a working directory works for the user who set it, but it might be a cau
 
 A workaround this is to use **{rstudioapi}** package. As in this example:
 
-```{r}
+```{r eval=FALSE}
 library(rstudioapi)
 ```
 
