@@ -8,4 +8,4 @@ on:
 
 jobs:
   bookdown:
-    uses: shared-pr-render
+    uses: shared-pr-render@main
