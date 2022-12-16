@@ -8,4 +8,4 @@ on:
 
 jobs:
   bookdown:
-    uses: r4ds/pr_check@main
+    uses: shared-pr-render
