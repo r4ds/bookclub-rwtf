@@ -8,4 +8,4 @@ on:
 
 jobs:
   bookdown:
-    uses: r4ds/r4dsactions/render_club_pr.yml@main
+    uses: r4ds/r4dsactions/.github/workflows/render_club_pr.yml@main
