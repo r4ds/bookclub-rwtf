@@ -7,5 +7,4 @@ on:
 
 jobs:
   pr_check:
-    steps:
-      - uses: r4ds/r4dsactions/.github/workflows/render_book.yml@main
+    uses: r4ds/r4dsactions/.github/workflows/render_book.yml@main
