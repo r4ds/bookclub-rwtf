@@ -8,7 +8,7 @@ on:
 
 jobs:
   bookdown:
-    name: pr_check_book
+    name: check_build
     runs-on: ubuntu-latest
     steps:
       - run: 'echo "No build required" '
