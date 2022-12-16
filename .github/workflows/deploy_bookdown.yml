@@ -6,5 +6,5 @@ on:
   workflow_dispatch:
 
 jobs:
-  render_and_deploy:
+  bookdown:
     uses: r4ds/r4dsactions/.github/workflows/render_pages.yml@main
