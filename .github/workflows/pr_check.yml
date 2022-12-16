@@ -8,4 +8,4 @@ on:
 
 jobs:
   bookdown:
-    uses: shared-pr-render@main
+    uses: r4ds/.github/workflows/pr_check.yml@main
