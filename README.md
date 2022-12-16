@@ -14,7 +14,6 @@ If you would like to present, please see the sign-up sheet for your cohort (link
 
 <hr>
 
-
 ## How to Present
 
 This repository is structured as a [{bookdown}](https://CRAN.R-project.org/package=bookdown) site.
