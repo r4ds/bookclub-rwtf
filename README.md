@@ -1,7 +1,5 @@
 # R4DS What They Forgot to Teach You About R Book Club
 
-ALSO ADD PLACEHOLDERS FOR ALL CHAPTERS BY COPYING 01.Rmd (IDEALLY ALSO UPDATE TITLES WITHIN THE FILES), THEN DELETE THIS SENTENCE.
-
 Welcome to the R4DS What They Forgot to Teach You About R Book Club!
 
 We are working together to read [_What They Forgot to Teach You About R_](https://rstats.wtf/) by Jenny Bryan and Jim Hester.
