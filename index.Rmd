@@ -18,7 +18,7 @@ Welcome to the bookclub!
 This is a companion for the book [_What They Forgot to Teach You About R_](https://rstats.wtf/) by Jenny Bryan and Jim Hester.
 This companion is available at [r4ds.io/rwtf](https://r4ds.io/rwtf).
 
-Also see the [rstudio::conf(2022) Workshop](https://github.com/rstudio-conf-2022/wtf-rstats).
+Also see the [Workshop](https://github.com/rstats-wtf/wtf-2022-rsc).
 
 This website is being developed by the [R4DS Online Learning Community](https://rfordatasci.com). Follow along, and [join the community](https://r4ds.io/join) to participate.
 

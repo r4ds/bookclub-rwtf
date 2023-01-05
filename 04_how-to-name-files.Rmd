@@ -1,0 +1,60 @@
+# How to name files
+
+See [Jenny Bryan's normconf talk](https://www.youtube.com/watch?v=ES1LTlnpLMk).
+
+**Learning objectives:**
+
+-   Explain why it's useful to have a filename convention.
+-   Describe Jenny Bryan's naming convention.
+
+## Why a convention? {-}
+
+-   Machine readable (easy to parse into meaning)
+
+```{r 04-filenames, eval = FALSE}
+# Better separate_ functions in dev version.
+remotes::install_github("tidyverse/tidyr")
+
+# Sample fiilename:
+# 2014-02-26_BRAFWTNEGASSAY_FFPEDNA-CRC-1-41_A03.csv
+
+# filenames is a vector of filenames like above
+
+tibble(filenames) |> 
+  tidyr::separate_wider_delim(
+    filenames,
+    delim = regex("[_\\.]"),
+    names = c("date", "assay", "line", "well", NA)
+  )
+```
+
+-   Human readable (easy for you to understand what's there)
+-   Sorted in a useful way (dates or chapters ordered, etc)
+
+## Jenny's convention {-}
+
+> 2014-02-26_BRAFWTNEGASSAY_FFPEDNA-CRC-1-41_A03.csv
+
+-   Underscore `_` to delimit fields (date vs assay vs line vs well)
+-   Hyphen `-` to delimit words within fields (`2014-02-26`, `CRC-1-41`)
+    -   "Has to be this way" because date convention
+-   Make things easy for Future You
+    -   Don't over-abbreviate
+    -   Start with something numberish for sorting when that makes sense
+-   Left pad numbers (01 vs 1)
+    -   `stringr::str_pad(1:10, width = 2, pad = "0")`
+-   Dates ISO 8601: `YYYY-MM-DD`
+
+## Meeting Videos {-}
+
+### Cohort 1 {-}
+
+`r knitr::include_url("https://www.youtube.com/embed/URL")`
+
+<details>
+<summary> Meeting chat log </summary>
+
+```
+LOG
+```
+</details>
