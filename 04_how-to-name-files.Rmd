@@ -12,11 +12,11 @@ See [Jenny Bryan's normconf talk](https://www.youtube.com/watch?v=ES1LTlnpLMk).
 -   Machine readable (easy to parse into meaning)
 
 ```{r 04-filenames, eval = FALSE}
-# Sample fiilename:
-# 2014-02-26_BRAFWTNEGASSAY_FFPEDNA-CRC-1-41_A03.csv
-
 # Better separate_ functions in dev version.
 remotes::install_github("tidyverse/tidyr")
+
+# Sample fiilename:
+# 2014-02-26_BRAFWTNEGASSAY_FFPEDNA-CRC-1-41_A03.csv
 
 # filenames is a vector of filenames like above
 
