@@ -1,13 +1,39 @@
 # Practice safe paths
 
+See the [workshop slides](https://rstats-wtf.github.io/wtf-project-oriented-workflow-slides/#/practice-safe-paths) for more information!
+
 **Learning objectives:**
 
-- THESE ARE NICE TO HAVE BUT NOT ABSOLUTELY NECESSARY
+-   Use `here::here()` to build safe paths relative to a project.
+-   Use `fs::path_home()` to build relatively safe paths relative to a user's home directory.
+-   Use `system.file(..., package = "target_package")` to build safe paths relative to an installed package.
 
-## SLIDE 1 {-}
+## {here} {-}
 
-- ADD SLIDES AS SECTIONS (`##`).
-- TRY TO KEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.
+-   `install.packages("here")`
+-   Finds the "top" of a project:
+    -   Rstudio project root (has `*.Rproj`).
+    -   Git repo (has `.git` dir)
+    -   R package (has `DESCRIPTION` file)
+    -   Has `.here` file.
+-   Paths relative to that "top" folder
+    -   `here::here("images/EIKIFJB_sigmar_hex.png")` (TAB autocomplete!)
+    -   `here::here("images", "EIKIFJB_sigmar_hex.png")`
+
+## {fs} {-}
+
+-   `install.packages("fs")`
+-   Functions for handling paths
+-   `fs::path_home()` = same relevant location on all file systems
+    -   `base::path.expand("~")` goes to "Documents" on Windows, home on other systems
+    -   `fs::path_home_r()` is equivalent to `base::path.expand("~")`
+-   `{fs}` has other useful functions for dealing with the file system
+
+## system.file() {-}
+
+-   `system.file(..., package = "target_package")` gives path to files included in packages
+-   Eg: `system.file("models.tsv", package = "parsnip")`
+-   Useful as package developer to provide raw files to work with
 
 ## Meeting Videos {-}
 
