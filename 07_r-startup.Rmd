@@ -1,0 +1,134 @@
+# R Startup
+
+**Learning objectives:**
+
+-   Set environment variables in `.Renviron`.
+-   Run R code at R startup with `.Rprofile`.
+-   Run R without startup files.
+
+## .Renviron {-}
+
+My `.Renviron` looks something like this:
+
+```
+SLACK_SKIPLOAD=TRUE
+R_DEFAULT_INTERNET_TIMEOUT=1000
+NOT_CRAN=true
+RTOOT_DEFAULT_TOKEN=<TOKEN_REDACTED>;user;fosstodon.org
+LINKEDIN_TOKEN=<TOKEN_REDACTED>
+OPENAI_API_KEY=<TOKEN_REDACTED>
+```
+
+Project-specific versions can be useful for [GitHub Actions & shinyapps.io deployments](https://github.com/r4ds/mentordash/blob/main/.github/workflows/deploy_shinyapps.yml).
+
+## .Rprofile {-}
+
+My `.Rprofile` got crazy enough that I made [`{andthis}`](https://github.com/jonthegeek/andthis) for my customizations:
+
+```{r rprofile, eval = FALSE}
+# Set this to FALSE (or comment out) to update packages like usethis.
+options(jon_load_stuff = TRUE)
+
+# Set package options. Make sure these don't impact how analyses work!
+options(
+  usethis.full_name = "Jon Harmon",
+  usethis.description = list(
+    `Authors@R` = 'person("Jon", "Harmon",
+                          email = "jonthegeek@gmail.com",
+                          role = c("aut", "cre"),
+                          comment = c(ORCID = "0000-0003-4781-4346"))',
+    License = "MIT + file LICENSE"
+  ),
+  usethis.destdir = "C:/Users/jonth/Dropbox (Personal)/R"
+)
+options(tidymodels.dark = TRUE)
+options(styler.cache_root = "styler-perm")
+
+# Set options that make coding safer.
+options(
+  warnPartialMatchArgs = TRUE,
+  warnPartialMatchDollar = TRUE,
+  warnPartialMatchAttr = TRUE
+)
+
+# Set up my dev environment (load packages, etc).
+if (interactive() && getOption("jon_load_stuff", FALSE)) {
+  suppressMessages(require(devtools))
+  suppressMessages(require(reprex))
+  suppressMessages(require(andthis))
+
+  # Show branch + time in console prompt.
+  prompt::set_prompt(
+    function(...) {
+      paste0(
+        "[",
+        prompt::git_branch(),
+        " ",
+        format(Sys.time(), "%T"),
+        "] > "
+      )
+    }
+  )
+}
+```
+
+## R without Startups {-}
+
+If running R from command line:
+
+-   `--vanilla`
+    -   `.Rprofile` `r emoji::emoji("x")`
+    -   `.Renviron`  `r emoji::emoji("x")`
+-   `--no-init-file` (general) or `--no-site-file` (site?)
+    -   `.Rprofile` `r emoji::emoji("x")`
+    -   `.Renviron`  `r emoji::emoji("check_mark")`
+-   `--no-environ`
+    -   `.Rprofile` `r emoji::emoji("check_mark")`
+    -   `.Renviron`  `r emoji::emoji("x")`
+
+Can also disable `.Rprofile` in project options in Rstudio.
+
+## Wait what's a "site" `Rprofile`?
+
+Mine is here: `C:\Program Files\R\R-4.2.2\etc\Rprofile.site`
+
+It's set up with defaults and notes (I haven't edited):
+
+```{r Rprofile.site, eval = FALSE}
+# Things you might want to change
+
+# options(papersize="a4")
+# options(editor="notepad")
+# options(pager="internal")
+
+# set the default help type
+# options(help_type="text")
+  options(help_type="html")
+
+# set a site library
+# .Library.site <- file.path(chartr("\\", "/", R.home()), "site-library")
+
+# set a CRAN mirror
+# local({r <- getOption("repos")
+#       r["CRAN"] <- "http://my.local.cran"
+#       options(repos=r)})
+
+# Give a fortune cookie, but only to interactive sessions
+# (This would need the fortunes package to be installed.)
+#  if (interactive()) 
+#    fortunes::fortune()
+```
+
+## Meeting Videos {-}
+
+### Cohort 1 {-}
+
+`r knitr::include_url("https://www.youtube.com/embed/URL")`
+
+<details>
+<summary> Meeting chat log </summary>
+
+```
+LOG
+```
+</details>
