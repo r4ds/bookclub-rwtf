@@ -88,7 +88,7 @@ If running R from command line:
 
 Can also disable `.Rprofile` in project options in Rstudio.
 
-## Wait what's a "site" `Rprofile`?
+## Wait what's a "site" `Rprofile`? {-}
 
 Mine is here: `C:\Program Files\R\R-4.2.2\etc\Rprofile.site`
 
