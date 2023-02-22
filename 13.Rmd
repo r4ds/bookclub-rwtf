@@ -2,12 +2,21 @@
 
 **Learning objectives:**
 
-- THESE ARE NICE TO HAVE BUT NOT ABSOLUTELY NECESSARY
+-   Use {reprex} to share ***repr***oducible ***ex***amples.
+-   Use "rubber ducking" to help with troubleshooting.   
 
-## SLIDE 1 {-}
+## reprex {-}
 
-- ADD SLIDES AS SECTIONS (`##`).
-- TRY TO KEEP THEM RELATIVELY SLIDE-LIKE; THESE ARE NOTES, NOT THE BOOK ITSELF.
+-   ***Repr***oducible ***ex***amples are a concept throughout programming, but
+-   The {reprex} package is unique
+-   Cut out as much as you can while still reproducing the error
+-   Often helps you find the problem before you have to ask
+-   `reprex_*()` flavors (including `reprex_slack()`)
+
+## Rubber ducking {-}
+
+-   Describing the problem to "someone" can help you find the error
+-   The "someone" doesn't have to be an actual person
 
 ## Meeting Videos {-}
 
