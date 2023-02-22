@@ -2,7 +2,12 @@
 
 **Learning objectives:**
 
-- THESE ARE NICE TO HAVE BUT NOT ABSOLUTELY NECESSARY
+-   Take some steps to troubleshoot before googling.
+-   Improve Google-fu to find help with error messages.
+-   Search GitHub for R-related code and issues.
+-   Navigate to package web pages and repositories.
+-   Search the CRAN package mirror on GitHub.
+-   Navigate code in RStudio.
 
 ## SLIDE 1 {-}
 
