@@ -123,12 +123,30 @@ It's set up with defaults and notes (I haven't edited):
 
 ### Cohort 1 {-}
 
-`r knitr::include_url("https://www.youtube.com/embed/URL")`
+`r knitr::include_url("https://www.youtube.com/embed/8vROEoMhZV8")`
 
 <details>
 <summary> Meeting chat log </summary>
 
 ```
-LOG
+00:13:43	Jon Harmon (jonthegeek):	usethis::edit_r_environ()
+00:24:09	Jon Harmon (jonthegeek):	usethis::edit_r_profile()
+00:25:31	Jon Harmon (jonthegeek):	use_conflicted()
+use_reprex()
+use_usethis()
+use_devtools()
+use_partial_warnings()
+00:26:32	Jon Harmon (jonthegeek):	>
+00:27:03	Jon Harmon (jonthegeek):	[main 11:42:50] > edit_r_profile()
+• Modify 'C:/Users/jonth/Documents/.Rprofile'
+• Restart R for changes to take effect
+[main 13:25:05] >
+00:32:20	Jon Harmon (jonthegeek):	[main 13:25:05] > getOption("repos")
+                       CRAN 
+"https://cran.rstudio.com/" 
+attr(,"RStudio")
+[1] TRUE
+[main 13:30:21] >
+
 ```
 </details>

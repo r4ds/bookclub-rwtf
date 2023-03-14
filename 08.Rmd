@@ -13,12 +13,15 @@
 
 ### Cohort 1 {-}
 
-`r knitr::include_url("https://www.youtube.com/embed/URL")`
+`r knitr::include_url("https://www.youtube.com/embed/8lsejIgGKqc")`
 
 <details>
 <summary> Meeting chat log </summary>
 
 ```
-LOG
+00:28:29	Jon Harmon (jonthegeek):	https://cran.r-project.org/package=renv
+00:40:05	Jon Harmon (jonthegeek):	https://github.com/MichelNivard/gptstudio
+00:40:10	Jon Harmon (jonthegeek):	https://github.com/JamesHWade/gpttools
+00:41:28	Federica Gazzelloni:	cool
 ```
 </details>
