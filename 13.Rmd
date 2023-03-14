@@ -22,12 +22,12 @@
 
 ### Cohort 1 {-}
 
-`r knitr::include_url("https://www.youtube.com/embed/URL")`
+`r knitr::include_url("https://www.youtube.com/embed/Bo77D_7zXj4")`
 
 <details>
 <summary> Meeting chat log </summary>
 
 ```
-LOG
+00:36:12	Jon Harmon (jonthegeek): https://github.com/yonicd/slackreprex
 ```
 </details>

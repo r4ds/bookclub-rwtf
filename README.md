@@ -10,7 +10,7 @@ As we read, we are producing [notes about the book](https://r4ds.io/rwtf).
 
 If you would like to present, please see the sign-up sheet for your cohort (linked below, and pinned in the [#book_club-rwtf](https://rfordatascience.slack.com/archives/BOOKCHANNELID) channel on Slack)!
 
-- [Cohort 1](https://docs.google.com/spreadsheets/d/1r4ChbMD2pkwsW3Mm0ct-UtA55KMwwrshmXtDORtGG4o/edit?usp=sharing) (started 2022-12-01): [Thursdays, 12:00 noon CST/CDT](https://www.timeanddate.com/worldclock/converter.html?iso=20221201T180000&p1=24&p2=1440) | [meeting videos](https://www.youtube.com/playlist?list=PL3x6DOfs2NGh9gMfk2TPYQZBXcLZGqmuW)
+- Cohort 1 (started 2022-12-01, ended 2023-03-06): [meeting videos](https://www.youtube.com/playlist?list=PL3x6DOfs2NGh9gMfk2TPYQZBXcLZGqmuW)
 
 <hr>
 

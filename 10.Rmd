@@ -13,12 +13,20 @@
 
 ### Cohort 1 {-}
 
-`r knitr::include_url("https://www.youtube.com/embed/URL")`
+`r knitr::include_url("https://www.youtube.com/embed/gs_QPowod0U")`
 
 <details>
 <summary> Meeting chat log </summary>
 
 ```
-LOG
+00:09:58	Jon Harmon (jonthegeek): do4ds.org
+00:10:36	Jon Harmon (jonthegeek): https://r4ds.github.io/bookclub-do4ds/virtual-environments-to-the-rescue.html
+00:11:08	Jon Harmon (jonthegeek): do4ds.com
+00:16:56	Jon Harmon (jonthegeek): > devtools::has_devel()
+Your system is ready to build packages!
+00:38:02	Jon Harmon (jonthegeek): Sys.getenv("R_DEFAULT_INTERNET_TIMEOUT")
+00:38:28	mohamed.shoeb: options(timeout = 30000)
+00:39:41	Jon Harmon (jonthegeek): usethis::edit_r_environ()
+00:39:51	Jon Harmon (jonthegeek): R_DEFAULT_INTERNET_TIMEOUT=1000
 ```
 </details>

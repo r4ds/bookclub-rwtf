@@ -85,12 +85,14 @@ RStudio provides an integrated development environment (IDE) which is a set of t
 
 ### Cohort 1 {.unnumbered}
 
-`r knitr::include_url("https://www.youtube.com/embed/URL")`
+`r knitr::include_url("https://www.youtube.com/embed/LxOsSswRBTs")`
 
 <details>
 
 <summary>Meeting chat log</summary>
-
-    LOG
-
+```
+00:44:28	Federica Gazzelloni:	https://rstudio.github.io/rstudioapi/
+00:50:32	mohamed.shoeb:	I have to leave now. See you in the next session!
+00:54:42	Federica Gazzelloni:	https://www.alfredapp.com/
+```
 </details>

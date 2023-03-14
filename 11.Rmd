@@ -13,12 +13,34 @@
 
 ### Cohort 1 {-}
 
-`r knitr::include_url("https://www.youtube.com/embed/URL")`
+`r knitr::include_url("https://www.youtube.com/embed/8ZwvgUHzpMo")`
 
 <details>
 <summary> Meeting chat log </summary>
 
 ```
-LOG
+00:41:34	Jon Harmon (jonthegeek): options(error = traceback)
+00:54:46	Jon Harmon (jonthegeek): options(error = recover)
+00:56:56	Priyanka: # example - traceback()  | trace() | browser()
+f<-function(x) {
+  r<-x-g(x)
+  r
+}
+
+g<-function(y) {
+  r<-y*h(y)
+  r
+}
+
+h<-function(z) {
+  r<-log(z)
+  if(r<10)
+    r^2
+  else
+    r^3
+}
+00:59:01	mohamed.shoeb: https://yjunechoe.github.io/ggtrace/
+01:05:05	Jon Harmon (jonthegeek): From the sink help:
+Do not sink the messages stream unless you understand the source code implementing it and hence the pitfalls.
 ```
 </details>
