@@ -20,7 +20,7 @@
 
 ```
 00:29:37	mohamed.shoeb:	https://rstats-wtf.github.io/wtf-project-oriented-workflow-slides/#/additional-packages
-00:30:51	Jon Harmon (jonthegeek):	r4ds.io/rwtf
+00:30:51	Jon Harmon (jonthegeek):	dslc.io/rwtf
 00:36:12	Jon Harmon (jonthegeek):	browseURL(.Library)
 00:40:59	Jon Harmon (jonthegeek):	https://www.gocomics.com/peanuts/2023/01/19
 00:42:09	Jon Harmon (jonthegeek):	https://www.gocomics.com/peanuts/1967/03/06

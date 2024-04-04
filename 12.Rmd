@@ -17,7 +17,7 @@
 
 ## Search better, not harder! {-}
 
--   R4DS Online Learning Community
+-   Data Science Learning Community
 -   [r tag on StackOverflow.com](https://stackoverflow.com/questions/tagged/r)
 -   [Advanced search on Posit Community](https://community.rstudio.com/search?expanded=true)
 -   Chrome search engines! (etc)
