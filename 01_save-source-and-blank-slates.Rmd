@@ -86,7 +86,7 @@ rm(list = ls())
 ```
 00:28:02	shamsuddeen:	Ok, cool
 00:28:34	Jon Harmon (jonthegeek):	https://cran.r-project.org/package=here
-00:29:33	Jon Harmon (jonthegeek):	r4ds.io/rwtf
+00:29:33	Jon Harmon (jonthegeek):	dslc.io/rwtf
 00:29:39	Jon Harmon (jonthegeek):	https://www.tidyverse.org/blog/2017/12/workflow-vs-script/
 ```
 </details>
